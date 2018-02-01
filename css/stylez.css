@@ -1,0 +1,88 @@
+body{
+    background-color:black;
+    color:white;
+}
+
+header, main, nav{
+    text-align:center;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+footer {
+    font-size: 10px;
+    color: gray;
+    clear: left;
+    text-align: center;
+}
+
+nav a{/*Links within nav container*/
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, #current { /*pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+td strong {
+    color: orange;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+#me, #welcomeText {
+    float: left;
+}
+
+#welcomeText {
+    text-align: left;
+    /*padding-left: 10px;*/
+    padding-top:  50px;
+    /*font-size: 1.3em;*/
+}
+
+#quote {
+    text-align: center;
+}
+
+#otter {
+    text-align: right;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+#contactForm {
+    padding-left: 190px;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+.hobby {
+    color: orange;
+}
